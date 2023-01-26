@@ -5,6 +5,10 @@
  */
 
 fun main() {
+
+}
+
+fun PrintArrayListLastElement(){
     var array_list : ArrayList<Int> = arrayListOf() // arrayListOf makes empty arrayList
     array_list.add(1) // value add to last
     array_list.add(2)
@@ -12,9 +16,6 @@ fun main() {
     
     PrintArrayListLastElement(array_list)
 
-}
-
-fun PrintArrayListLastElement(arrayList: ArrayList<Int>){
     var lastValue = arrayList.last()
     println(lastValue)
 }
