@@ -10,6 +10,11 @@ fun main() {
     array_list.add(2)
     array_list.add(3)
     
-    println(array_list)
-    println(array_list.last()) // .last() is last value return
+    PrintArrayListLastElement(array_list)
+
+}
+
+fun PrintArrayListLastElement(arrayList: ArrayList<Int>){
+    var lastValue = arrayList.last()
+    println(lastValue)
 }
