@@ -12,7 +12,7 @@ fun main() {
 
 fun PrintArrayListLastElement(){
     var arrayList : ArrayList<Int> = arrayListOf() // arrayListOf makes empty arrayList
-    arrayList.add(1) // value add to last
+    arrayList.add(1)
     arrayList.add(2)
     arrayList.add(3)
 
@@ -22,7 +22,7 @@ fun PrintArrayListLastElement(){
 
 fun SortArrayList(){
     var basicArrayList : ArrayList<Int> = arrayListOf() // arrayListOf makes empty arrayList
-    basicArrayList.add(1) // value add to last
+    basicArrayList.add(1)
     basicArrayList.add(3)
     basicArrayList.add(2)
 
